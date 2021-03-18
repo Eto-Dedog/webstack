@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSTACK</title>
+    <link rel="icon" href="img/favicon.png" sizes="10x10">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__block">
+                <div class="dropdown">
+                    <button onclick="myDropdown()" class="dropbtn">Меню</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#" class="dropdown-link">Услуги</a>
+                        <a href="#" class="dropdown-link">Портфолио</a>
+                        <a href="#" class="dropdown-link">Сотрудники</a>
+                        <a href="#" class="dropdown-link">Отзывы</a>
+                        <a href="tel:8(812)123-45-67" class="header__link__tell dropdown-link-tell">8 (812) 123-45-67</a>
+                    </div>
+                </div>
+                <nav class="header__nav dnone">
+                    <a href="#" class="header__nav__link">Услуги</a>
+                    <a href="#" class="header__nav__link">Портфолио</a>
+                    <a href="#" class="header__nav__link">Сотрудники</a>
+                    <a href="#" class="header__nav__link">Отзывы</a>
+                </nav>
+                <!-- /.header__nav -->
+                <a href="index.html"><img class="header__logo" src="img/logo.svg" alt="Логотип студии ~WEBSTACK~ "></a>
+                <div class="header__nav">
+                    <a href="tel:8(812)123-45-67" class="header__nav__link header__link__tell dnone">8 (812) 123-45-67</a>
+                    <button class="primary__button js-open-modal" data-modal="1">Оставить заявку</button>
+                </div>
+                <!-- /.header__nav -->
+            </div>
+            <!-- /.header__block -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <!-- /.header -->
+
+    <div class="promo">
+        <div class="container">
+            <div class="promo__block">
+                <h1 class="section__title promo__title">Создание сайтов с нуля</h1>
+                <img class="promo__mouse__img" src="img/mouse.png" alt="Картинка мыши">
+            </div>
+            <!-- /.promo__block -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.promo -->
+
+    <div class="attainments">
+        <div class="container">
+            <div class="attainments__block">
+                <h2 class="section__title">Чем мы занимаемся</h2>
+                <div class="attainments__cards">
+                    <div class="attainments__card decoration-card">
+                        <img class="attainments__card__img" src="img/fountain.png" alt="Картинка карточки">
+                        <span class="attainments__card__title">BACKEND</span>
+                        <p class="attainments__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, molestias?</p>
+                    </div>
+                    <!-- /.attainments__card -->
+                    <div class="attainments__card">
+                        <img class="attainments__card__img" src="img/fountain.png" alt="Картинка карточки">
+                        <span class="attainments__card__title">FRONTEND</span>
+                        <p class="attainments__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, molestias?</p>
+                    </div>
+                    <!-- /.attainments__card -->
+                    <div class="attainments__card decoration-card">
+                        <img class="attainments__card__img" src="img/fountain.png" alt="Картинка карточки">
+                        <span class="attainments__card__title">ХЗ</span>
+                        <p class="attainments__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, molestias?</p>
+                    </div>
+                    <!-- /.attainments__card -->
+                    <div class="attainments__card">
+                        <img class="attainments__card__img" src="img/fountain.png" alt="Картинка карточки">
+                        <span class="attainments__card__title">ХЗ</span>
+                        <p class="attainments__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, molestias?</p>
+                    </div>
+                    <!-- /.attainments__card -->
+                </div>
+                <!-- /.attainments__cards -->
+            </div>
+            <!-- /.attainments__block -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.attainments -->
+
+    <div class="portfolio">
+        <div class="portfolio__block">
+            <h2 class="section__title">Портфолио</h2>
+            <div class="portfolia__cards">
+
+                <a href="#" target="_blank" class="portfolia__link">                
+                    <div class="portfolia__card portfolia__card--medium">
+                    <img src="img/portfolio-img.jpg" class="portfolia__card__img--medium" alt="Картинка Портфолио">
+                    <h3 class="portfolia__card__title ">Сайт -</h3>
+                    </div>
+                </a>
+
+                <a href="#" target="_blank" class="portfolia__link">                
+                    <div class="portfolia__card portfolia__card--medium">
+                    <img src="img/portfolio-img.jpg" class="portfolia__card__img--medium" alt="Картинка Портфолио">
+                    <h3 class="portfolia__card__title ">Сайт -</h3>
+                    </div>
+                </a>
+
+                <a href="#" target="_blank" class="portfolia__link">                
+                    <div class="portfolia__card portfolia__card--medium">
+                    <img src="img/portfolio-img.jpg" class="portfolia__card__img--medium" alt="Картинка Портфолио">
+                    <h3 class="portfolia__card__title ">Сайт -</h3>
+                    </div>
+                </a>
+
+                <a href="#" target="_blank" class="portfolia__link">                
+                    <div class="portfolia__card portfolia__card--medium">
+                    <img src="img/portfolio-img.jpg" class="portfolia__card__img--medium" alt="Картинка Портфолио">
+                    <h3 class="portfolia__card__title ">Сайт -</h3>
+                    </div>
+                </a>
+                <!-- id="dots" добовлять последнему элементу эти эта выподающая дичь не будет работать  -->
+                <a href="#" target="_blank" class="portfolia__link" id="dots">                
+                    <div class="portfolia__card portfolia__card--medium">
+                    <img src="img/portfolio-img.jpg" class="portfolia__card__img--medium" alt="Картинка Портфолио">
+                    <h3 class="portfolia__card__title ">Сайт -</h3>
+                    </div>
+                </a>
+                <!-- посмотреть остальные портфолио -->
+                <div class="more__block" id="more">
+                    <a href="#" target="_blank" class="portfolia__link">                
+                        <div class="portfolia__card portfolia__card--medium">
+                        <img src="img/portfolio-img.jpg" class="portfolia__card__img--medium" alt="Картинка Портфолио">
+                        <h3 class="portfolia__card__title ">Сайт -</h3>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="portfolia__link">                
+                        <div class="portfolia__card portfolia__card--medium">
+                        <img src="img/portfolio-img.jpg" class="portfolia__card__img--medium" alt="Картинка Портфолио">
+                        <h3 class="portfolia__card__title ">Сайт -</h3>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="portfolia__link">                
+                        <div class="portfolia__card portfolia__card--medium">
+                        <img src="img/portfolio-img.jpg" class="portfolia__card__img--medium" alt="Картинка Портфолио">
+                        <h3 class="portfolia__card__title ">Сайт -</h3>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="portfolia__link">                
+                        <div class="portfolia__card portfolia__card--medium">
+                        <img src="img/portfolio-img.jpg" class="portfolia__card__img--medium" alt="Картинка Портфолио">
+                        <h3 class="portfolia__card__title ">Сайт -</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- <a href="#" target="_blank" class="portfolia__link">                
+                    <div class="portfolia__card portfolia__card--large">
+                    <img src="img/portfolio-img.jpg" class="portfolia__card__img--large" alt="Картинка Портфолио большая">
+                    <h3 class="portfolia__card__title ">Сайт -</h3>
+                    </div>
+                </a> -->
+
+            </div>
+
+            <button class="primary__button" onclick="dropFunction()" id="myBtn">Посмотреть больше</button>
+        </div>
+    </div>
+
+    <!-- Дичь но впринцепе работает значит можно :D -->
+    <!-- <div class="portfolio">
+        <div class="portfolio__block">
+            <h2 class="section__title">Портфолио</h2>
+            <div class="portfolia__cards">
+                <div class="portfolia__card portfolia__card--one">
+                    <h3 class="portfolia__card__title portfolia__card__title--large">Сайт -</h3>
+                </div>
+                <div class="portfolia__card portfolia__card--one">
+                    <h3 class="portfolia__card__title portfolia__card__title--large">Сайт -</h3>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="application">
+        <div class="container">
+            <div class="application__block">
+                <h2 class="section__title">Оставить заявку</h2>
+                <div class="application__box">
+                    <div class="application__box__info">
+                        <p class="application__box__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+                    </div>
+                    <!-- /.application__box__text -->
+                    <div class="application__box__form">
+                        <form class="application__form" action="#">
+                            <div class="application__form__up">
+                                <input class="box__form__input" type="email" placeholder="Ваше имя">
+                                <input class="box__form__input" type="tel" placeholder="Ваш телефон">
+                            </div>
+                            <div class="application__form__down">
+                                <p class="box__form__text">*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
+                                <button class="primary__button">Связаться с нами</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.application__box__form -->
+                </div>
+                <!-- /.application__block__box -->
+            </div>
+            <!-- /.application__block -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.application -->
+
+    <div class="swiper-container">
+        <h2 class="section__title swiper-title">Наша команда</h2>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image:url(img/sl-1.png)">
+            <span class="slide-content">Сергей Палыч <br>Менеджер</span>
+        </div>
+          <div class="swiper-slide" style="background-image:url(img/sl-2.png)">
+            <span class="slide-content">Сапронова Анастасия<br>Дизайнер</span>
+        </div>
+          <div class="swiper-slide" style="background-image:url(img/sl-3.jpg)">
+            <span class="slide-content">Навицкая Нино<br>Front-end разработчик</span>
+        </div>
+        <div class="swiper-slide" style="background-image:url(img/sl-4.jpg)">
+            <span class="slide-content">Емельянова Юлия<br>Дизайнер</span>
+        </div>
+          <div class="swiper-slide" style="background-image:url(img/sl-5.jpg)">
+            <span class="slide-content">Гнатюк Иван<br>Front-end разработчик</span>
+        </div>
+          <div class="swiper-slide" style="background-image:url(img/sl-6.jpg)">
+            <span class="slide-content">Мирошниченко Денис<br>Front-end разработчик</span>
+        </div>
+        <div class="swiper-slide" style="background-image:url(img/sl-7.jpg)">
+            <span class="slide-content">Тетерин Святослав<br>Front-end разработчик</span>
+        </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- /.swiper-container -->
+
+    <!-- <div class="swiper-container staff-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/fountain.png" alt="flowers" class="slider-img"></div>
+            <div class="swiper-slide"><img src="img/fountain.png" alt="flowers" class="slider-img"></div>
+            <div class="swiper-slide"><img src="img/fountain.png" alt="flowers" class="slider-img"></div>
+            <div class="swiper-slide"><img src="img/fountain.png" alt="flowers" class="slider-img"></div>
+            <div class="swiper-slide"><img src="img/fountain.png" alt="flowers" class="slider-img"></div>
+            <div class="swiper-slide"><img src="img/fountain.png" alt="flowers" class="slider-img"></div>
+        </div>
+    
+        <div class="swiper-button-prev "></div>
+        <div class="swiper-button-next "></div>
+    </div> -->
+
+    <div class="question">
+        <div class="container">
+            <div class="question__block">
+                <h2 class="section__title">Есть вопросы?</h2>
+                <div class="question__box">
+                    <div class="question__box__form">
+                        <form class="question__form" action="#">
+                            <p class="box__form__text ">*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
+                            <input class="box__form__input " type="email" placeholder="Ваше имя">
+                            <input class="box__form__input " type="tel" placeholder="Ваш телефон">
+                            <button class="primary__button ">Связаться с нами</button>
+                        </form>
+                    </div>
+                    <!-- /.application__box__form -->
+                </div>
+                <!-- /.question__box -->
+            </div>
+            <!-- /.question__block -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.question -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__block">
+                <a href="index.html"><img class="header__logo" src="img/logo.svg" alt="Логотип студии ~WEBSTACK~ "></a>
+                <div class="footer__box">
+                    <div class="footer__box__info">
+                        <a class="footer__send js-open-modal" data-modal="1" href="#">Оставить заявку</a>
+                        <p class="footer__text">Lorem Ipsum - это текст-"рыба", часто испо
+                            льзуемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" </p>
+                    </div>
+                    <!-- /.footer__box__text -->
+                    <!-- палка ;D можно по человечески но мне и так норм -->
+                    <div class="stick"></div><!-- /.stick -->
+                    <div class="footer__box__additional">
+                        <a class="additional__link" target="_blank" href="https://yandex.ru/maps/geo/moskva/53000094/?ll=37.385524%2C55.584222&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&z=9">Адрес: <span class="additional__link--dop">г.Москва</span></a>
+                        <a class="additional__link" target="_blank" href="tel:8(812)123-45-67">Телефон: <span class="additional__link--dop">8(812)123-45-67</span></a>
+                        <span class="additional__link">Отдел продаж: 10:00 - 20:00</span>
+                        <a class="additional__link" target="_blank" href="mailto:vip@housevip.ru">E-mail: <span class="additional__link--dop">vip@housevip.ru</span></a>
+                    </div>
+                    <!-- /.footer__box__info -->
+                </div>
+                <!-- /.footer__box -->
+                <div class="footer__box__links">
+                    <a href="#" target="_blank" class="footer__link footer__link-yu"></a>
+                    <a href="#" target="_blank" class="footer__link footer__link-vk"></a>
+                    <a href="#" target="_blank" class="footer__link footer__link-fb"></a>
+                    <a href="#" target="_blank" class="footer__link footer__link-in"></a>
+                </div>
+                <!-- /.footer__box__links -->
+            </div>
+            <!-- /.footer__block -->
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- /.footer -->
+
+  <div class="modal" data-modal="1">
+    <!--   Svg иконка для закрытия окна  -->
+    <img class="modal__cross js-modal-close" src="img/letter-x.svg" alt="Крестик">
+    <a href="index.html"><img class="header__logo" src="img/logo.svg" alt="Логотип студии ~WEBSTACK~ "></a>
+    <h2 class="modal__title">Отставте заявку</h2>
+    <div class="modal__content">
+        <div class="question__box__form ">
+            <form class="question__form question__form-modal" action="#">
+                <input class="box__form__input box__form__input-modal" type="email" placeholder="Ваша почта">
+                <input class="box__form__input box__form__input-modal" type="text" placeholder="Ваше имя">
+                <textarea class="box__form__input box__form__input-modal" name="comment" cols="40" rows="3" placeholder="Какой сайт вы хотите?"></textarea></p>
+                <span class="modal__title-file">Макет сайта</span>
+                <input class="box__form__input-modal__file" type="file">
+                <button class="primary__button ">Оставить заявку</button>
+            </form>
+        </div>
+        <!-- /.application__box__form -->
+        <a class="additional__link" target="_blank" href="https://yandex.ru/maps/geo/moskva/53000094/?ll=37.385524%2C55.584222&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&z=9">Адрес: <span class="additional__link--dop">г.Москва</span></a>
+        <a class="additional__link" target="_blank" href="tel:8(812)123-45-67">Телефон: <span class="additional__link--dop">8(812)123-45-67</span></a>
+        <span class="additional__link">Отдел продаж: 10:00 - 20:00</span>
+        <a class="additional__link" target="_blank" href="mailto:vip@housevip.ru">E-mail: <span class="additional__link--dop">vip@housevip.ru</span></a>
+        <div class="modal__social__links">
+            <a href="#" target="_blank"class="footer__link footer__link-yu"></a>
+            <a href="#" target="_blank"class="footer__link footer__link-vk"></a>
+            <a href="#" target="_blank"class="footer__link footer__link-fb"></a>
+            <a href="#" target="_blank"class="footer__link footer__link-in"></a>
+        </div>
+    </div>
+ </div>
+ 
+ <!-- Подложка под модальным окном -->
+ <div class="overlay js-overlay-modal"></div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
